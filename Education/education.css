@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 6%;
+    width: 100%;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #90523d;
+    background-color: transparent;
+    transition: 0.5s ease;
+    
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: inline-flex;
+    color: black;
+    margin-left: 4rem;
+    transition: 0.2s ease;
+}
+
+nav a.active,
+nav a:hover{
+    color: #90523d;
+    border-bottom: 3px solid #90523d;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f2ed;;
+}
+
+section{
+    margin-top: 80px;
+    height: 80vh;
+}
+
+.education-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-container h1{
+    font-size: 5rem;
+    font-weight: 700;
+    
+}
+
+.education-container h1 span{
+    font-size: 4.9rem;
+    color: #90523d;
+}
+
+.education-container p{
+    font-size: 1.5rem;
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.education-card{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 90%;
+    background-color: white;
+    justify-content: center;
+    margin: 20px 15px;
+    border-radius: 30px;
+    transition: 0.8s ease; 
+}
+
+.education-card:hover{
+    border: 3px solid #90523d;
+    box-shadow: 0 0 15px #90523d;
+}
+
+.education-card .e-card-title{
+    display: flex;
+    font-size: 4rem;
+    gap: 15px;
+}
+
+.education-card .e-card-title .e-icon{
+    background-color: #90523d;
+    color: white;
+    width: 80px;
+    height: 80px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    margin: 0 0 0 30px;
+}
+
+.e-school{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.e-school .e-school-level{
+    color: #90523d;
+    font-weight: 600;
+}
+
+.e-school .e-school-name{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.e-about{
+    margin-left: 125px;
+    font-size: 1.8rem
+}
+
+
+
+
+
+
+

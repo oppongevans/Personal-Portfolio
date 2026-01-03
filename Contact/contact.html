@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Evans</a>
+        <nav>
+            <a href="..\Main\index.html">Home</a>
+            <a href="..\Skills\skills.html">Skills</a>
+            <a href="..\Education\education.html">Education</a>
+            <a href="#" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <div class="contact-heading">
+        <h1>Contact <span>Me</span></h1>
+        <p>Get in touch with me</p>
+    </div>
+
+    <form class="contact-container" method="POST"
+          action="https://formspree.io/f/xrbowovk">
+        
+        <label for="name" class="labels">Name</label>
+        <input type="text" name="name" id="name" placeholder="Your name" required>
+
+        <label for="email" class="labels">Email</label>
+        <input type="email" name="email" id="email" placeholder="your.email@example.com" required>
+
+        <label for="message" class="labels">Message</label>
+        <textarea id="message" name="message" rows="10" cols="80" placeholder="Your Message" required></textarea>
+
+        
+        <input type="submit" class="sendBtn" value="Send Message ➢">
+       
+        
+    </form>
+
+    <footer>
+        <p>&copy 2025 OPPONGEVANS447@GMAIL.COM</p>
+    </footer>
+</body>
+</html>
